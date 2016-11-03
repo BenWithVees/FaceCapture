@@ -20,7 +20,7 @@ import org.openimaj.math.geometry.shape.Rectangle;
 public class App {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		MBFImage image = ImageUtilities.readMBF(new File("/Users/ben//Desktop/CardinalsPhoto.jpg"));
+		MBFImage image = ImageUtilities.readMBF(new File("/Users/ben//Downloads/issuesphoto.jpg"));
 		DisplayUtilities.display(image);
 
 		// Use KEDectectedFace for key facial features
